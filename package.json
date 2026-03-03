@@ -1,0 +1,27 @@
+{
+  "homepage": "https://TU_USUARIO.github.io/mi-presupuesto",
+  "name": "tablero-familiar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "firebase": "^12.10.0",
+    "lucide-react": "^0.576.0",
+    "recharts": "^3.7.0"
+  }
+}
